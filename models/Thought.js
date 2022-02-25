@@ -33,7 +33,6 @@ const thoughtSchema = new Schema(
   }
 );
 
-// Create a virtual property `reactionCount`
 thoughtSchema
   .virtual('reactionCount')
   .get(function () {
